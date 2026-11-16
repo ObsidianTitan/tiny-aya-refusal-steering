@@ -94,3 +94,7 @@ Steering produced no measurable safety gain (the baseline attack success rate wa
 ## Reproduce
 
 Open `lexsi_track2_stage1.ipynb` in Colab on a T4 GPU, add a read token as the Colab secret `HF_TOKEN`, upload your own `own_translations.json` (not published, because it holds translated harmful prompts), and run all cells. The upload cell stays off unless `PUBLISH = True`. The refusal vector is not published.
+
+## AI assistance and author's note
+
+The code, notebook and write-up were drafted with the help of an AI assistant. I ran the notebook myself on Colab, checked the outputs and published links, and submitted the entry myself. I am extremely humbled to have taken part in this hackathon, and I am very serious about learning this field properly, from first principles.
